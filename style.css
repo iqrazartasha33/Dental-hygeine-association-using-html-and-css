@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+header h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    color: rgb(117, 117, 117);
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 190px;
+    color: rgb(0, 0, 0);
+}
+
+header ul li a {
+    color: rgb(5, 215, 243);
+    font-weight: bold;
+}
+
+main .gradient {
+    background: linear-gradient(to right, rgb(5, 215, 243), white, rgb(219, 219, 219), rgb(213, 213, 213));
+    height: 80px;
+    text-align: center;
+}
+
+main .gradient h1 {
+    color: rgb(117, 117, 117);
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Purple Container Starting */
+main .purple {
+    height: 400px;
+    background-color: rgb(219, 183, 252);
+    width: 28%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .purple ul {
+    text-align: left;
+}
+
+/* Purple Container Ending */
+
+/* Pink Container Starting */
+main .pink {
+    height: 400px;
+    background-color: rgb(246, 172, 242);
+    width: 28%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .pink .inputt {
+    float: left;
+    margin-left: 10px;
+    text-align: left;
+}
+
+main .pink .inputt #Orthodontist {
+    margin-left: 4px;
+}
+
+/* Pink Container Starting */
+
+main .dark {
+    height: 400px;
+    background-color: rgb(208, 145, 223);
+    width: 28%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .dark ul {
+    text-align: left;
+}
